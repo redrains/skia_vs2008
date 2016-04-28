@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "angle", "angle.vcproj", "{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_x64|Win32 = Debug_x64|Win32
+		Release_Developer_x64|Win32 = Release_Developer_x64|Win32
+		Debug|Win32 = Debug|Win32
+		Release_Developer|Win32 = Release_Developer|Win32
+		Release_x64|Win32 = Release_x64|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}.Debug_x64|Win32.ActiveCfg = Debug_x64|Win32
+		{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}.Debug_x64|Win32.Build.0 = Debug_x64|Win32
+		{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}.Release_Developer_x64|Win32.ActiveCfg = Release_Developer_x64|Win32
+		{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}.Release_Developer_x64|Win32.Build.0 = Release_Developer_x64|Win32
+		{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}.Debug|Win32.ActiveCfg = Debug|Win32
+		{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}.Debug|Win32.Build.0 = Debug|Win32
+		{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}.Release_Developer|Win32.ActiveCfg = Release_Developer|Win32
+		{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}.Release_Developer|Win32.Build.0 = Release_Developer|Win32
+		{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}.Release_x64|Win32.ActiveCfg = Release_x64|Win32
+		{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}.Release_x64|Win32.Build.0 = Release_x64|Win32
+		{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}.Release|Win32.ActiveCfg = Release|Win32
+		{66CE0653-BC37-30C8-E4ED-36D7CE2EC927}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
