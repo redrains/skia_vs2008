@@ -24,7 +24,7 @@
 class AutoLibraryUnload {
 public:
     AutoLibraryUnload(const char* moduleName) {
-        fModule = LoadLibrary(moduleName);
+	fModule = LoadLibraryA(moduleName);       
     }
     ~AutoLibraryUnload() {
         if (NULL != fModule) {

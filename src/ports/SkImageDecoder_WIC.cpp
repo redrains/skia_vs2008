@@ -27,6 +27,7 @@
 #undef INT64_MAX
 #undef UINT64_MAX
 
+#include <initguid.h>
 #include <wincodec.h>
 #include "SkAutoCoInitialize.h"
 #include "SkImageDecoder.h"

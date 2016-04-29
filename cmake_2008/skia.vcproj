@@ -17,12 +17,12 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\Debug"
+			OutputDirectory="Debug"
 			IntermediateDirectory="skia.dir\Debug"
-			ConfigurationType="2"
+			ConfigurationType="4"
 			UseOfMFC="0"
 			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2"
+			CharacterSet="1"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
@@ -38,7 +38,7 @@
 			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\device\xps;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\text;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\ios;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\animated;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\unix;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\include;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\animator;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects\gradients;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\fonts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\debug;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\mesa;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\image;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\lazy;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\opts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\record;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\sfnt;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\svg;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\debugger;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\xml;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\etc1;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\ktx;"
+				AdditionalIncludeDirectories="..\include\core;..\include\device\xps;..\include\effects;..\include\gpu\gl;..\include\gpu;..\include\images;..\include\pathops;..\include\pdf;..\include\pipe;..\include\ports;..\include\text;..\include\utils\ios;..\include\utils\mac;..\include\utils;..\include\utils\win;..\include\views\android;..\include\views\animated;..\include\views\unix;include;..\src\animator;..\src\core;..\src\effects\gradients;..\src\effects;..\src\fonts;..\src\gpu\effects;..\src\gpu\gl\debug;..\src\gpu\gl;..\src\gpu\gl\mesa;..\src\gpu;..\src\image;..\src\images;..\src\lazy;..\src\opts;..\src\pathops;..\src\pdf;..\src\pipe;..\src\pipe\utils;..\src\ports;..\src\record;..\src\sfnt;..\src\svg;..\src\utils\android;..\src\utils\debugger;..\src\utils;..\src\utils\win;..\src\views\mac;..\src\views;..\src\xml;..\third_party\etc1;..\third_party\ktx;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -54,7 +54,7 @@
 				AdditionalOptions=" /w"
 				Optimization="0"
 				InlineFunctionExpansion="0"
-				AdditionalIncludeDirectories="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\device\xps;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\text;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\ios;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\animated;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\unix;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\include;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\animator;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects\gradients;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\fonts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\debug;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\mesa;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\image;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\lazy;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\opts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\record;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\sfnt;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\svg;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\debugger;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\xml;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\etc1;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\ktx;"
+				AdditionalIncludeDirectories="..\include\core;..\include\device\xps;..\include\effects;..\include\gpu\gl;..\include\gpu;..\include\images;..\include\pathops;..\include\pdf;..\include\pipe;..\include\ports;..\include\text;..\include\utils\ios;..\include\utils\mac;..\include\utils;..\include\utils\win;..\include\views\android;..\include\views\animated;..\include\views\unix;include;..\src\animator;..\src\core;..\src\effects\gradients;..\src\effects;..\src\fonts;..\src\gpu\effects;..\src\gpu\gl\debug;..\src\gpu\gl;..\src\gpu\gl\mesa;..\src\gpu;..\src\image;..\src\images;..\src\lazy;..\src\opts;..\src\pathops;..\src\pdf;..\src\pipe;..\src\pipe\utils;..\src\ports;..\src\record;..\src\sfnt;..\src\svg;..\src\utils\android;..\src\utils\debugger;..\src\utils;..\src\utils\win;..\src\views\mac;..\src\views;..\src\xml;..\third_party\etc1;..\third_party\ktx;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;SKIA_DLL;SKIA_IMPLEMENTATION=1;CMAKE_INTDIR=\&quot;Debug\&quot;;skia_EXPORTS"
 				ExceptionHandling="1"
 				BasicRuntimeChecks="3"
@@ -72,29 +72,16 @@
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;SKIA_DLL;SKIA_IMPLEMENTATION=1;CMAKE_INTDIR=\&quot;Debug\&quot;;skia_EXPORTS"
-				AdditionalIncludeDirectories="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\device\xps;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\text;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\ios;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\animated;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\unix;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\include;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\animator;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects\gradients;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\fonts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\debug;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\mesa;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\image;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\lazy;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\opts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\record;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\sfnt;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\svg;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\debugger;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\xml;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\etc1;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\ktx;"
+				AdditionalIncludeDirectories="..\include\core;..\include\device\xps;..\include\effects;..\include\gpu\gl;..\include\gpu;..\include\images;..\include\pathops;..\include\pdf;..\include\pipe;..\include\ports;..\include\text;..\include\utils\ios;..\include\utils\mac;..\include\utils;..\include\utils\win;..\include\views\android;..\include\views\animated;..\include\views\unix;include;..\src\animator;..\src\core;..\src\effects\gradients;..\src\effects;..\src\fonts;..\src\gpu\effects;..\src\gpu\gl\debug;..\src\gpu\gl;..\src\gpu\gl\mesa;..\src\gpu;..\src\image;..\src\images;..\src\lazy;..\src\opts;..\src\pathops;..\src\pdf;..\src\pipe;..\src\pipe\utils;..\src\ports;..\src\record;..\src\sfnt;..\src\svg;..\src\utils\android;..\src\utils\debugger;..\src\utils;..\src\utils\win;..\src\views\mac;..\src\views;..\src\xml;..\third_party\etc1;..\third_party\ktx;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
-				LinkLibraryDependencies="false"
-				AdditionalOptions=" /machine:X86 /debug"
-				AdditionalDependencies="kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Usp10.lib glu32.lib opengl32.lib $(NOINHERIT)"
-				OutputFile="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\Debug\skia.dll"
-				Version="0.0"
-				LinkIncremental="2"
-				AdditionalLibraryDirectories=""
-				GenerateDebugInformation="true"
-				ProgramDatabaseFile="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\Debug\skia.pdb"
-				ImportLibrary="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\Debug\skia.lib"
+				Name="VCLibrarianTool"
 			/>
 			<Tool
 				Name="VCALinkTool"
-			/>
-			<Tool
-				Name="VCManifestTool"
 			/>
 			<Tool
 				Name="VCXDCMakeTool"
@@ -106,20 +93,17 @@
 				Name="VCFxCopTool"
 			/>
 			<Tool
-				Name="VCAppVerifierTool"
-			/>
-			<Tool
 				Name="VCPostBuildEventTool"
 			/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			OutputDirectory="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\Release"
+			OutputDirectory="Release"
 			IntermediateDirectory="skia.dir\Release"
-			ConfigurationType="2"
+			ConfigurationType="4"
 			UseOfMFC="0"
 			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2"
+			CharacterSet="1"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
@@ -135,7 +119,7 @@
 			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\device\xps;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\text;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\ios;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\animated;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\unix;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\include;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\animator;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects\gradients;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\fonts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\debug;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\mesa;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\image;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\lazy;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\opts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\record;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\sfnt;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\svg;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\debugger;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\xml;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\etc1;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\ktx;"
+				AdditionalIncludeDirectories="..\include\core;..\include\device\xps;..\include\effects;..\include\gpu\gl;..\include\gpu;..\include\images;..\include\pathops;..\include\pdf;..\include\pipe;..\include\ports;..\include\text;..\include\utils\ios;..\include\utils\mac;..\include\utils;..\include\utils\win;..\include\views\android;..\include\views\animated;..\include\views\unix;include;..\src\animator;..\src\core;..\src\effects\gradients;..\src\effects;..\src\fonts;..\src\gpu\effects;..\src\gpu\gl\debug;..\src\gpu\gl;..\src\gpu\gl\mesa;..\src\gpu;..\src\image;..\src\images;..\src\lazy;..\src\opts;..\src\pathops;..\src\pdf;..\src\pipe;..\src\pipe\utils;..\src\ports;..\src\record;..\src\sfnt;..\src\svg;..\src\utils\android;..\src\utils\debugger;..\src\utils;..\src\utils\win;..\src\views\mac;..\src\views;..\src\xml;..\third_party\etc1;..\third_party\ktx;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -151,7 +135,7 @@
 				AdditionalOptions=" /w"
 				Optimization="2"
 				InlineFunctionExpansion="2"
-				AdditionalIncludeDirectories="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\device\xps;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\text;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\ios;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\animated;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\unix;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\include;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\animator;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects\gradients;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\fonts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\debug;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\mesa;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\image;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\lazy;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\opts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\record;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\sfnt;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\svg;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\debugger;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\xml;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\etc1;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\ktx;"
+				AdditionalIncludeDirectories="..\include\core;..\include\device\xps;..\include\effects;..\include\gpu\gl;..\include\gpu;..\include\images;..\include\pathops;..\include\pdf;..\include\pipe;..\include\ports;..\include\text;..\include\utils\ios;..\include\utils\mac;..\include\utils;..\include\utils\win;..\include\views\android;..\include\views\animated;..\include\views\unix;include;..\src\animator;..\src\core;..\src\effects\gradients;..\src\effects;..\src\fonts;..\src\gpu\effects;..\src\gpu\gl\debug;..\src\gpu\gl;..\src\gpu\gl\mesa;..\src\gpu;..\src\image;..\src\images;..\src\lazy;..\src\opts;..\src\pathops;..\src\pdf;..\src\pipe;..\src\pipe\utils;..\src\ports;..\src\record;..\src\sfnt;..\src\svg;..\src\utils\android;..\src\utils\debugger;..\src\utils;..\src\utils\win;..\src\views\mac;..\src\views;..\src\xml;..\third_party\etc1;..\third_party\ktx;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;SKIA_DLL;SKIA_IMPLEMENTATION=1;CMAKE_INTDIR=\&quot;Release\&quot;;skia_EXPORTS"
 				ExceptionHandling="1"
 				RuntimeLibrary="2"
@@ -167,28 +151,16 @@
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;SKIA_DLL;SKIA_IMPLEMENTATION=1;CMAKE_INTDIR=\&quot;Release\&quot;;skia_EXPORTS"
-				AdditionalIncludeDirectories="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\device\xps;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\text;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\ios;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\animated;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\unix;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\include;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\animator;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects\gradients;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\fonts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\debug;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\mesa;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\image;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\lazy;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\opts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\record;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\sfnt;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\svg;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\debugger;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\xml;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\etc1;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\ktx;"
+				AdditionalIncludeDirectories="..\include\core;..\include\device\xps;..\include\effects;..\include\gpu\gl;..\include\gpu;..\include\images;..\include\pathops;..\include\pdf;..\include\pipe;..\include\ports;..\include\text;..\include\utils\ios;..\include\utils\mac;..\include\utils;..\include\utils\win;..\include\views\android;..\include\views\animated;..\include\views\unix;include;..\src\animator;..\src\core;..\src\effects\gradients;..\src\effects;..\src\fonts;..\src\gpu\effects;..\src\gpu\gl\debug;..\src\gpu\gl;..\src\gpu\gl\mesa;..\src\gpu;..\src\image;..\src\images;..\src\lazy;..\src\opts;..\src\pathops;..\src\pdf;..\src\pipe;..\src\pipe\utils;..\src\ports;..\src\record;..\src\sfnt;..\src\svg;..\src\utils\android;..\src\utils\debugger;..\src\utils;..\src\utils\win;..\src\views\mac;..\src\views;..\src\xml;..\third_party\etc1;..\third_party\ktx;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
-				LinkLibraryDependencies="false"
-				AdditionalOptions=" /machine:X86"
-				AdditionalDependencies="kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Usp10.lib glu32.lib opengl32.lib $(NOINHERIT)"
-				OutputFile="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\Release\skia.dll"
-				Version="0.0"
-				LinkIncremental="1"
-				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\Release\skia.pdb"
-				ImportLibrary="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\Release\skia.lib"
+				Name="VCLibrarianTool"
 			/>
 			<Tool
 				Name="VCALinkTool"
-			/>
-			<Tool
-				Name="VCManifestTool"
 			/>
 			<Tool
 				Name="VCXDCMakeTool"
@@ -200,15 +172,12 @@
 				Name="VCFxCopTool"
 			/>
 			<Tool
-				Name="VCAppVerifierTool"
-			/>
-			<Tool
 				Name="VCPostBuildEventTool"
 			/>
 		</Configuration>
 		<Configuration
 			Name="MinSizeRel|Win32"
-			OutputDirectory="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\MinSizeRel"
+			OutputDirectory="MinSizeRel"
 			IntermediateDirectory="skia.dir\MinSizeRel"
 			ConfigurationType="2"
 			UseOfMFC="0"
@@ -229,7 +198,7 @@
 			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\device\xps;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\text;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\ios;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\animated;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\unix;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\include;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\animator;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects\gradients;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\fonts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\debug;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\mesa;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\image;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\lazy;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\opts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\record;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\sfnt;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\svg;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\debugger;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\xml;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\etc1;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\ktx;"
+				AdditionalIncludeDirectories="..\include\core;..\include\device\xps;..\include\effects;..\include\gpu\gl;..\include\gpu;..\include\images;..\include\pathops;..\include\pdf;..\include\pipe;..\include\ports;..\include\text;..\include\utils\ios;..\include\utils\mac;..\include\utils;..\include\utils\win;..\include\views\android;..\include\views\animated;..\include\views\unix;include;..\src\animator;..\src\core;..\src\effects\gradients;..\src\effects;..\src\fonts;..\src\gpu\effects;..\src\gpu\gl\debug;..\src\gpu\gl;..\src\gpu\gl\mesa;..\src\gpu;..\src\image;..\src\images;..\src\lazy;..\src\opts;..\src\pathops;..\src\pdf;..\src\pipe;..\src\pipe\utils;..\src\ports;..\src\record;..\src\sfnt;..\src\svg;..\src\utils\android;..\src\utils\debugger;..\src\utils;..\src\utils\win;..\src\views\mac;..\src\views;..\src\xml;..\third_party\etc1;..\third_party\ktx;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -245,7 +214,7 @@
 				AdditionalOptions=" /w"
 				Optimization="1"
 				InlineFunctionExpansion="1"
-				AdditionalIncludeDirectories="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\device\xps;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\text;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\ios;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\animated;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\unix;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\include;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\animator;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects\gradients;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\fonts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\debug;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\mesa;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\image;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\lazy;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\opts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\record;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\sfnt;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\svg;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\debugger;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\xml;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\etc1;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\ktx;"
+				AdditionalIncludeDirectories="..\include\core;..\include\device\xps;..\include\effects;..\include\gpu\gl;..\include\gpu;..\include\images;..\include\pathops;..\include\pdf;..\include\pipe;..\include\ports;..\include\text;..\include\utils\ios;..\include\utils\mac;..\include\utils;..\include\utils\win;..\include\views\android;..\include\views\animated;..\include\views\unix;include;..\src\animator;..\src\core;..\src\effects\gradients;..\src\effects;..\src\fonts;..\src\gpu\effects;..\src\gpu\gl\debug;..\src\gpu\gl;..\src\gpu\gl\mesa;..\src\gpu;..\src\image;..\src\images;..\src\lazy;..\src\opts;..\src\pathops;..\src\pdf;..\src\pipe;..\src\pipe\utils;..\src\ports;..\src\record;..\src\sfnt;..\src\svg;..\src\utils\android;..\src\utils\debugger;..\src\utils;..\src\utils\win;..\src\views\mac;..\src\views;..\src\xml;..\third_party\etc1;..\third_party\ktx;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;SKIA_DLL;SKIA_IMPLEMENTATION=1;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;skia_EXPORTS"
 				ExceptionHandling="1"
 				RuntimeLibrary="2"
@@ -261,7 +230,7 @@
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;SKIA_DLL;SKIA_IMPLEMENTATION=1;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;skia_EXPORTS"
-				AdditionalIncludeDirectories="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\device\xps;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\text;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\ios;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\animated;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\unix;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\include;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\animator;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects\gradients;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\fonts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\debug;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\mesa;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\image;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\lazy;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\opts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\record;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\sfnt;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\svg;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\debugger;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\xml;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\etc1;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\ktx;"
+				AdditionalIncludeDirectories="..\include\core;..\include\device\xps;..\include\effects;..\include\gpu\gl;..\include\gpu;..\include\images;..\include\pathops;..\include\pdf;..\include\pipe;..\include\ports;..\include\text;..\include\utils\ios;..\include\utils\mac;..\include\utils;..\include\utils\win;..\include\views\android;..\include\views\animated;..\include\views\unix;include;..\src\animator;..\src\core;..\src\effects\gradients;..\src\effects;..\src\fonts;..\src\gpu\effects;..\src\gpu\gl\debug;..\src\gpu\gl;..\src\gpu\gl\mesa;..\src\gpu;..\src\image;..\src\images;..\src\lazy;..\src\opts;..\src\pathops;..\src\pdf;..\src\pipe;..\src\pipe\utils;..\src\ports;..\src\record;..\src\sfnt;..\src\svg;..\src\utils\android;..\src\utils\debugger;..\src\utils;..\src\utils\win;..\src\views\mac;..\src\views;..\src\xml;..\third_party\etc1;..\third_party\ktx;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -271,12 +240,12 @@
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86"
 				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib FontSub.lib Usp10.lib glu32.lib opengl32.lib "
-				OutputFile="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\MinSizeRel\skia.dll"
+				OutputFile="MinSizeRel\skia.dll"
 				Version="0.0"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\MinSizeRel\skia.pdb"
-				ImportLibrary="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\MinSizeRel\skia.lib"
+				ProgramDatabaseFile="MinSizeRel\skia.pdb"
+				ImportLibrary="MinSizeRel\skia.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -302,7 +271,7 @@
 		</Configuration>
 		<Configuration
 			Name="RelWithDebInfo|Win32"
-			OutputDirectory="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\RelWithDebInfo"
+			OutputDirectory="RelWithDebInfo"
 			IntermediateDirectory="skia.dir\RelWithDebInfo"
 			ConfigurationType="2"
 			UseOfMFC="0"
@@ -323,7 +292,7 @@
 			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\device\xps;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\text;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\ios;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\animated;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\unix;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\include;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\animator;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects\gradients;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\fonts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\debug;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\mesa;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\image;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\lazy;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\opts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\record;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\sfnt;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\svg;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\debugger;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\xml;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\etc1;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\ktx;"
+				AdditionalIncludeDirectories="..\include\core;..\include\device\xps;..\include\effects;..\include\gpu\gl;..\include\gpu;..\include\images;..\include\pathops;..\include\pdf;..\include\pipe;..\include\ports;..\include\text;..\include\utils\ios;..\include\utils\mac;..\include\utils;..\include\utils\win;..\include\views\android;..\include\views\animated;..\include\views\unix;include;..\src\animator;..\src\core;..\src\effects\gradients;..\src\effects;..\src\fonts;..\src\gpu\effects;..\src\gpu\gl\debug;..\src\gpu\gl;..\src\gpu\gl\mesa;..\src\gpu;..\src\image;..\src\images;..\src\lazy;..\src\opts;..\src\pathops;..\src\pdf;..\src\pipe;..\src\pipe\utils;..\src\ports;..\src\record;..\src\sfnt;..\src\svg;..\src\utils\android;..\src\utils\debugger;..\src\utils;..\src\utils\win;..\src\views\mac;..\src\views;..\src\xml;..\third_party\etc1;..\third_party\ktx;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -339,7 +308,7 @@
 				AdditionalOptions=" /w"
 				Optimization="2"
 				InlineFunctionExpansion="1"
-				AdditionalIncludeDirectories="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\device\xps;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\text;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\ios;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\animated;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\unix;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\include;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\animator;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects\gradients;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\fonts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\debug;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\mesa;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\image;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\lazy;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\opts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\record;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\sfnt;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\svg;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\debugger;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\xml;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\etc1;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\ktx;"
+				AdditionalIncludeDirectories="..\include\core;..\include\device\xps;..\include\effects;..\include\gpu\gl;..\include\gpu;..\include\images;..\include\pathops;..\include\pdf;..\include\pipe;..\include\ports;..\include\text;..\include\utils\ios;..\include\utils\mac;..\include\utils;..\include\utils\win;..\include\views\android;..\include\views\animated;..\include\views\unix;include;..\src\animator;..\src\core;..\src\effects\gradients;..\src\effects;..\src\fonts;..\src\gpu\effects;..\src\gpu\gl\debug;..\src\gpu\gl;..\src\gpu\gl\mesa;..\src\gpu;..\src\image;..\src\images;..\src\lazy;..\src\opts;..\src\pathops;..\src\pdf;..\src\pipe;..\src\pipe\utils;..\src\ports;..\src\record;..\src\sfnt;..\src\svg;..\src\utils\android;..\src\utils\debugger;..\src\utils;..\src\utils\win;..\src\views\mac;..\src\views;..\src\xml;..\third_party\etc1;..\third_party\ktx;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;SKIA_DLL;SKIA_IMPLEMENTATION=1;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;skia_EXPORTS"
 				ExceptionHandling="1"
 				RuntimeLibrary="2"
@@ -356,7 +325,7 @@
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;SKIA_DLL;SKIA_IMPLEMENTATION=1;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;skia_EXPORTS"
-				AdditionalIncludeDirectories="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\device\xps;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\text;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\ios;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\animated;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\include\views\unix;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\include;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\animator;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\core;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects\gradients;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\fonts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\effects;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\debug;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu\gl\mesa;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\gpu;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\image;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\images;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\lazy;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\opts;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pathops;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pdf;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\pipe\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\ports;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\record;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\sfnt;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\svg;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\android;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\debugger;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\utils\win;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views\mac;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\views;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\src\xml;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\etc1;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\..\third_party\ktx;"
+				AdditionalIncludeDirectories="..\include\core;..\include\device\xps;..\include\effects;..\include\gpu\gl;..\include\gpu;..\include\images;..\include\pathops;..\include\pdf;..\include\pipe;..\include\ports;..\include\text;..\include\utils\ios;..\include\utils\mac;..\include\utils;..\include\utils\win;..\include\views\android;..\include\views\animated;..\include\views\unix;include;..\src\animator;..\src\core;..\src\effects\gradients;..\src\effects;..\src\fonts;..\src\gpu\effects;..\src\gpu\gl\debug;..\src\gpu\gl;..\src\gpu\gl\mesa;..\src\gpu;..\src\image;..\src\images;..\src\lazy;..\src\opts;..\src\pathops;..\src\pdf;..\src\pipe;..\src\pipe\utils;..\src\ports;..\src\record;..\src\sfnt;..\src\svg;..\src\utils\android;..\src\utils\debugger;..\src\utils;..\src\utils\win;..\src\views\mac;..\src\views;..\src\xml;..\third_party\etc1;..\third_party\ktx;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -366,13 +335,13 @@
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86 /debug"
 				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib FontSub.lib Usp10.lib glu32.lib opengl32.lib "
-				OutputFile="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\RelWithDebInfo\skia.dll"
+				OutputFile="RelWithDebInfo\skia.dll"
 				Version="0.0"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories=""
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\RelWithDebInfo\skia.pdb"
-				ImportLibrary="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\RelWithDebInfo\skia.lib"
+				ProgramDatabaseFile="RelWithDebInfo\skia.pdb"
+				ImportLibrary="RelWithDebInfo\skia.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -404,511 +373,507 @@
 			Name="Source Files"
 			>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\bmpdecoderhelper.cpp"
+				RelativePath="..\src\images\bmpdecoderhelper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\third_party\etc1\etc1.cpp"
+				RelativePath="..\src\gpu\GrAAConvexPathRenderer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrAAConvexPathRenderer.cpp"
+				RelativePath="..\src\gpu\GrAAHairLinePathRenderer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrAAHairLinePathRenderer.cpp"
+				RelativePath="..\src\gpu\GrAARectRenderer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrAARectRenderer.cpp"
+				RelativePath="..\src\gpu\GrAddPathRenderers_default.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrAddPathRenderers_default.cpp"
+				RelativePath="..\src\gpu\GrAllocPool.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrAllocPool.cpp"
+				RelativePath="..\src\gpu\GrAtlas.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrAtlas.cpp"
+				RelativePath="..\src\gpu\effects\GrBezierEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrBezierEffect.cpp"
+				RelativePath="..\src\gpu\effects\GrBicubicEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrBicubicEffect.cpp"
+				RelativePath="..\src\gpu\GrBitmapTextContext.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrBitmapTextContext.cpp"
+				RelativePath="..\src\gpu\GrBlend.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrBlend.cpp"
+				RelativePath="..\src\gpu\GrBufferAllocPool.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrBufferAllocPool.cpp"
+				RelativePath="..\src\gpu\gl\debug\GrBufferObj.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\debug\GrBufferObj.cpp"
+				RelativePath="..\src\gpu\GrCacheID.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrCacheID.cpp"
+				RelativePath="..\src\gpu\GrClipData.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrClipData.cpp"
+				RelativePath="..\src\gpu\GrClipMaskCache.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrClipMaskCache.cpp"
+				RelativePath="..\src\gpu\GrClipMaskManager.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrClipMaskManager.cpp"
+				RelativePath="..\src\gpu\effects\GrConfigConversionEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrConfigConversionEffect.cpp"
+				RelativePath="..\src\gpu\GrContext.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrContext.cpp"
+				RelativePath="..\src\gpu\effects\GrConvexPolyEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrConvexPolyEffect.cpp"
+				RelativePath="..\src\gpu\effects\GrConvolutionEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrConvolutionEffect.cpp"
+				RelativePath="..\src\gpu\effects\GrCustomCoordsTextureEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrCustomCoordsTextureEffect.cpp"
+				RelativePath="..\src\gpu\gl\debug\GrDebugGL.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\debug\GrDebugGL.cpp"
+				RelativePath="..\src\gpu\GrDefaultPathRenderer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrDefaultPathRenderer.cpp"
+				RelativePath="..\src\gpu\GrDistanceFieldTextContext.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrDistanceFieldTextContext.cpp"
+				RelativePath="..\src\gpu\effects\GrDistanceFieldTextureEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrDistanceFieldTextureEffect.cpp"
+				RelativePath="..\src\gpu\GrDrawState.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrDrawState.cpp"
+				RelativePath="..\src\gpu\GrDrawTarget.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrDrawTarget.cpp"
+				RelativePath="..\src\gpu\GrEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrEffect.cpp"
+				RelativePath="..\src\gpu\gl\debug\GrFrameBufferObj.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\debug\GrFrameBufferObj.cpp"
+				RelativePath="..\src\gpu\gl\GrGLBufferImpl.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLBufferImpl.cpp"
+				RelativePath="..\src\gpu\gl\GrGLCaps.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLCaps.cpp"
+				RelativePath="..\src\gpu\gl\GrGLContext.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLContext.cpp"
+				RelativePath="..\src\gpu\gl\debug\GrGLCreateDebugInterface.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\debug\GrGLCreateDebugInterface.cpp"
+				RelativePath="..\src\gpu\gl\win\GrGLCreateNativeInterface_win.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\win\GrGLCreateNativeInterface_win.cpp"
+				RelativePath="..\src\gpu\gl\GrGLCreateNullInterface.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLCreateNullInterface.cpp"
+				RelativePath="..\src\gpu\gl\GrGLDefaultInterface_native.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLDefaultInterface_native.cpp"
+				RelativePath="..\src\gpu\gl\GrGLExtensions.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLExtensions.cpp"
+				RelativePath="..\src\gpu\gl\GrGLIndexBuffer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLIndexBuffer.cpp"
+				RelativePath="..\src\gpu\gl\GrGLInterface.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLInterface.cpp"
+				RelativePath="..\src\gpu\gl\GrGLNoOpInterface.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLNoOpInterface.cpp"
+				RelativePath="..\src\gpu\gl\GrGLPath.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLPath.cpp"
+				RelativePath="..\src\gpu\gl\GrGLProgram.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLProgram.cpp"
+				RelativePath="..\src\gpu\gl\GrGLProgramDesc.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLProgramDesc.cpp"
+				RelativePath="..\src\gpu\gl\GrGLProgramEffects.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLProgramEffects.cpp"
+				RelativePath="..\src\gpu\gl\GrGLRenderTarget.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLRenderTarget.cpp"
+				RelativePath="..\src\gpu\gl\GrGLShaderBuilder.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLShaderBuilder.cpp"
+				RelativePath="..\src\gpu\gl\GrGLSL.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLSL.cpp"
+				RelativePath="..\src\gpu\gl\GrGLStencilBuffer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLStencilBuffer.cpp"
+				RelativePath="..\src\gpu\gl\GrGLTexture.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLTexture.cpp"
+				RelativePath="..\src\gpu\gl\GrGLUniformManager.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLUniformManager.cpp"
+				RelativePath="..\src\gpu\gl\GrGLUtil.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLUtil.cpp"
+				RelativePath="..\src\gpu\gl\GrGLVertexArray.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLVertexArray.cpp"
+				RelativePath="..\src\gpu\gl\GrGLVertexBuffer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGLVertexBuffer.cpp"
+				RelativePath="..\src\gpu\GrGpu.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrGpu.cpp"
+				RelativePath="..\src\gpu\GrGpuFactory.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrGpuFactory.cpp"
+				RelativePath="..\src\gpu\gl\GrGpuGL.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGpuGL.cpp"
+				RelativePath="..\src\gpu\gl\GrGpuGL_program.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\GrGpuGL_program.cpp"
+				RelativePath="..\src\gpu\GrInOrderDrawBuffer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrInOrderDrawBuffer.cpp"
+				RelativePath="..\src\gpu\GrLayerCache.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrLayerCache.cpp"
+				RelativePath="..\src\gpu\GrMemoryPool.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrMemoryPool.cpp"
+				RelativePath="..\src\gpu\effects\GrOvalEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrOvalEffect.cpp"
+				RelativePath="..\src\gpu\GrOvalRenderer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrOvalRenderer.cpp"
+				RelativePath="..\src\gpu\GrPaint.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrPaint.cpp"
+				RelativePath="..\src\gpu\GrPath.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrPath.cpp"
+				RelativePath="..\src\gpu\GrPathRenderer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrPathRenderer.cpp"
+				RelativePath="..\src\gpu\GrPathRendererChain.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrPathRendererChain.cpp"
+				RelativePath="..\src\gpu\GrPathUtils.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrPathUtils.cpp"
+				RelativePath="..\src\gpu\GrPictureUtils.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrPictureUtils.cpp"
+				RelativePath="..\src\gpu\gl\debug\GrProgramObj.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\debug\GrProgramObj.cpp"
+				RelativePath="..\src\gpu\GrRectanizer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrRectanizer.cpp"
+				RelativePath="..\src\gpu\GrRectanizer_skyline.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrRectanizer_skyline.cpp"
+				RelativePath="..\src\gpu\GrReducedClip.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrReducedClip.cpp"
+				RelativePath="..\src\gpu\GrRenderTarget.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrRenderTarget.cpp"
+				RelativePath="..\src\gpu\GrResource.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrResource.cpp"
+				RelativePath="..\src\gpu\GrResourceCache.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrResourceCache.cpp"
+				RelativePath="..\src\gpu\effects\GrRRectEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrRRectEffect.cpp"
+				RelativePath="..\src\gpu\gl\debug\GrShaderObj.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\debug\GrShaderObj.cpp"
+				RelativePath="..\src\gpu\effects\GrSimpleTextureEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrSimpleTextureEffect.cpp"
+				RelativePath="..\src\gpu\effects\GrSingleTextureEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrSingleTextureEffect.cpp"
+				RelativePath="..\src\gpu\GrSoftwarePathRenderer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrSoftwarePathRenderer.cpp"
+				RelativePath="..\src\gpu\GrStencil.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrStencil.cpp"
+				RelativePath="..\src\gpu\GrStencilAndCoverPathRenderer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrStencilAndCoverPathRenderer.cpp"
+				RelativePath="..\src\gpu\GrStencilBuffer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrStencilBuffer.cpp"
+				RelativePath="..\src\gpu\GrSurface.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrSurface.cpp"
+				RelativePath="..\src\gpu\GrSWMaskHelper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrSWMaskHelper.cpp"
+				RelativePath="..\src\gpu\GrTest.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrTest.cpp"
+				RelativePath="..\src\gpu\GrTextContext.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrTextContext.cpp"
+				RelativePath="..\src\gpu\GrTextStrike.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrTextStrike.cpp"
+				RelativePath="..\src\gpu\GrTexture.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrTexture.cpp"
+				RelativePath="..\src\gpu\GrTextureAccess.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrTextureAccess.cpp"
+				RelativePath="..\src\gpu\effects\GrTextureDomain.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrTextureDomain.cpp"
+				RelativePath="..\src\gpu\gl\debug\GrTextureObj.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\debug\GrTextureObj.cpp"
+				RelativePath="..\src\gpu\effects\GrTextureStripAtlas.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\effects\GrTextureStripAtlas.cpp"
+				RelativePath="..\src\gpu\gl\debug\GrTextureUnitObj.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\debug\GrTextureUnitObj.cpp"
+				RelativePath="..\src\gpu\GrTraceMarker.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\GrTraceMarker.cpp"
+				RelativePath="..\src\opts\opts_check_SSE2.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\opts\opts_check_SSE2.cpp"
+				RelativePath="..\src\pipe\utils\SamplePipeControllers.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pipe\utils\SamplePipeControllers.cpp"
+				RelativePath="..\src\effects\Sk1DPathEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\Sk1DPathEffect.cpp"
+				RelativePath="..\src\effects\Sk2DPathEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\Sk2DPathEffect.cpp"
+				RelativePath="..\src\core\SkAAClip.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkAAClip.cpp"
+				RelativePath="..\src\pathops\SkAddIntersections.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkAddIntersections.cpp"
+				RelativePath="..\src\core\SkAdvancedTypefaceMetrics.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkAdvancedTypefaceMetrics.cpp"
+				RelativePath="..\src\core\SkAlphaRuns.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkAlphaRuns.cpp"
+				RelativePath="..\src\effects\SkAlphaThresholdFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkAlphaThresholdFilter.cpp"
+				RelativePath="..\src\core\SkAnnotation.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkAnnotation.cpp"
+				RelativePath="..\src\effects\SkArithmeticMode.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkArithmeticMode.cpp"
+				RelativePath="..\src\utils\win\SkAutoCoInitialize.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\win\SkAutoCoInitialize.cpp"
+				RelativePath="..\src\effects\SkAvoidXfermode.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkAvoidXfermode.cpp"
+				RelativePath="..\src\utils\SkBase64.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkBase64.cpp"
+				RelativePath="..\src\core\SkBBoxHierarchyRecord.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBBoxHierarchyRecord.cpp"
+				RelativePath="..\src\core\SkBBoxRecord.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBBoxRecord.cpp"
+				RelativePath="..\src\effects\SkBicubicImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkBicubicImageFilter.cpp"
+				RelativePath="..\src\core\SkBitmap.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBitmap.cpp"
+				RelativePath="..\src\core\SkBitmap_scroll.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBitmap_scroll.cpp"
+				RelativePath="..\src\effects\gradients\SkBitmapCache.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\gradients\SkBitmapCache.cpp"
+				RelativePath="..\src\core\SkBitmapDevice.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBitmapDevice.cpp"
+				RelativePath="..\src\core\SkBitmapFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBitmapFilter.cpp"
+				RelativePath="..\src\opts\SkBitmapFilter_opts_SSE2.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\opts\SkBitmapFilter_opts_SSE2.cpp"
+				RelativePath="..\src\utils\SkBitmapHasher.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkBitmapHasher.cpp"
+				RelativePath="..\src\core\SkBitmapHeap.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBitmapHeap.cpp"
+				RelativePath="..\src\core\SkBitmapProcShader.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBitmapProcShader.cpp"
+				RelativePath="..\src\core\SkBitmapProcState.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBitmapProcState.cpp"
+				RelativePath="..\src\core\SkBitmapProcState_matrixProcs.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBitmapProcState_matrixProcs.cpp"
+				RelativePath="..\src\opts\SkBitmapProcState_opts_SSE2.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\opts\SkBitmapProcState_opts_SSE2.cpp"
-				>
-			</File>
-			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\opts\SkBitmapProcState_opts_SSSE3.cpp"
+				RelativePath="..\src\opts\SkBitmapProcState_opts_SSSE3.cpp"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
@@ -944,247 +909,247 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBitmapScaler.cpp"
+				RelativePath="..\src\core\SkBitmapScaler.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkBitmapSource.cpp"
+				RelativePath="..\src\effects\SkBitmapSource.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkBitSet.cpp"
+				RelativePath="..\src\utils\SkBitSet.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBlitMask_D32.cpp"
+				RelativePath="..\src\core\SkBlitMask_D32.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\opts\SkBlitRect_opts_SSE2.cpp"
+				RelativePath="..\src\opts\SkBlitRect_opts_SSE2.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBlitRow_D16.cpp"
+				RelativePath="..\src\core\SkBlitRow_D16.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBlitRow_D32.cpp"
+				RelativePath="..\src\core\SkBlitRow_D32.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\opts\SkBlitRow_opts_SSE2.cpp"
+				RelativePath="..\src\opts\SkBlitRow_opts_SSE2.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBlitter.cpp"
+				RelativePath="..\src\core\SkBlitter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBlitter_A8.cpp"
+				RelativePath="..\src\core\SkBlitter_A8.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBlitter_ARGB32.cpp"
+				RelativePath="..\src\core\SkBlitter_ARGB32.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBlitter_RGB16.cpp"
+				RelativePath="..\src\core\SkBlitter_RGB16.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBlitter_Sprite.cpp"
+				RelativePath="..\src\core\SkBlitter_Sprite.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkBlurDrawLooper.cpp"
+				RelativePath="..\src\effects\SkBlurDrawLooper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\opts\SkBlurImage_opts_SSE2.cpp"
+				RelativePath="..\src\opts\SkBlurImage_opts_SSE2.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkBlurImageFilter.cpp"
+				RelativePath="..\src\effects\SkBlurImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkBlurMask.cpp"
+				RelativePath="..\src\effects\SkBlurMask.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkBlurMaskFilter.cpp"
+				RelativePath="..\src\effects\SkBlurMaskFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkBoundaryPatch.cpp"
+				RelativePath="..\src\utils\SkBoundaryPatch.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkBuffer.cpp"
+				RelativePath="..\src\core\SkBuffer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\lazy\SkCachingPixelRef.cpp"
+				RelativePath="..\src\lazy\SkCachingPixelRef.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkCamera.cpp"
+				RelativePath="..\src\utils\SkCamera.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkCanvas.cpp"
+				RelativePath="..\src\core\SkCanvas.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkCanvasStack.cpp"
+				RelativePath="..\src\utils\SkCanvasStack.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkCanvasStateUtils.cpp"
+				RelativePath="..\src\utils\SkCanvasStateUtils.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkChunkAlloc.cpp"
+				RelativePath="..\src\core\SkChunkAlloc.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\gradients\SkClampRange.cpp"
+				RelativePath="..\src\effects\gradients\SkClampRange.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkClipStack.cpp"
+				RelativePath="..\src\core\SkClipStack.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkColor.cpp"
+				RelativePath="..\src\core\SkColor.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkColorFilter.cpp"
+				RelativePath="..\src\core\SkColorFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkColorFilterImageFilter.cpp"
+				RelativePath="..\src\effects\SkColorFilterImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkColorFilters.cpp"
+				RelativePath="..\src\effects\SkColorFilters.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkColorMatrix.cpp"
+				RelativePath="..\src\effects\SkColorMatrix.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkColorMatrixFilter.cpp"
+				RelativePath="..\src\effects\SkColorMatrixFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkColorTable.cpp"
+				RelativePath="..\src\core\SkColorTable.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkComposeImageFilter.cpp"
+				RelativePath="..\src\effects\SkComposeImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkComposeShader.cpp"
+				RelativePath="..\src\core\SkComposeShader.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkCondVar.cpp"
+				RelativePath="..\src\utils\SkCondVar.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkConfig8888.cpp"
+				RelativePath="..\src\core\SkConfig8888.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkConvolver.cpp"
+				RelativePath="..\src\core\SkConvolver.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkCornerPathEffect.cpp"
+				RelativePath="..\src\effects\SkCornerPathEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkCountdown.cpp"
+				RelativePath="..\src\utils\SkCountdown.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkCubicClipper.cpp"
+				RelativePath="..\src\core\SkCubicClipper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkCubicInterval.cpp"
+				RelativePath="..\src\utils\SkCubicInterval.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkCullPoints.cpp"
+				RelativePath="..\src\utils\SkCullPoints.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkDashPathEffect.cpp"
+				RelativePath="..\src\effects\SkDashPathEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkData.cpp"
+				RelativePath="..\src\core\SkData.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkDataTable.cpp"
+				RelativePath="..\src\core\SkDataTable.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkDCubicIntersection.cpp"
+				RelativePath="..\src\pathops\SkDCubicIntersection.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkDCubicLineIntersection.cpp"
+				RelativePath="..\src\pathops\SkDCubicLineIntersection.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkDCubicToQuads.cpp"
+				RelativePath="..\src\pathops\SkDCubicToQuads.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkDebug.cpp"
+				RelativePath="..\src\core\SkDebug.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\ports\SkDebug_win.cpp"
+				RelativePath="..\src\ports\SkDebug_win.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\debugger\SkDebugCanvas.cpp"
+				RelativePath="..\src\utils\debugger\SkDebugCanvas.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\debug\SkDebugGLContext.cpp"
+				RelativePath="..\src\gpu\gl\debug\SkDebugGLContext.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkDecodingImageGenerator.cpp"
+				RelativePath="..\src\images\SkDecodingImageGenerator.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkDeferredCanvas.cpp"
+				RelativePath="..\src\utils\SkDeferredCanvas.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkDeque.cpp"
+				RelativePath="..\src\core\SkDeque.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkDevice.cpp"
+				RelativePath="..\src\core\SkDevice.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkDeviceLooper.cpp"
+				RelativePath="..\src\core\SkDeviceLooper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkDeviceProfile.cpp"
+				RelativePath="..\src\core\SkDeviceProfile.cpp"
 				>
 			</File>
 			<File
@@ -1192,519 +1157,519 @@
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\lazy\SkDiscardableMemoryPool.cpp"
+				RelativePath="..\src\lazy\SkDiscardableMemoryPool.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\lazy\SkDiscardablePixelRef.cpp"
+				RelativePath="..\src\lazy\SkDiscardablePixelRef.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkDiscretePathEffect.cpp"
+				RelativePath="..\src\effects\SkDiscretePathEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkDisplacementMapEffect.cpp"
+				RelativePath="..\src\effects\SkDisplacementMapEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkDistanceFieldGen.cpp"
+				RelativePath="..\src\core\SkDistanceFieldGen.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkDither.cpp"
+				RelativePath="..\src\core\SkDither.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkDLineIntersection.cpp"
+				RelativePath="..\src\pathops\SkDLineIntersection.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\doc\SkDocument.cpp"
+				RelativePath="..\src\doc\SkDocument.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkDQuadImplicit.cpp"
+				RelativePath="..\src\pathops\SkDQuadImplicit.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkDQuadIntersection.cpp"
+				RelativePath="..\src\pathops\SkDQuadIntersection.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkDQuadLineIntersection.cpp"
+				RelativePath="..\src\pathops\SkDQuadLineIntersection.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkDraw.cpp"
+				RelativePath="..\src\core\SkDraw.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\debugger\SkDrawCommand.cpp"
+				RelativePath="..\src\utils\debugger\SkDrawCommand.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkDrawLooper.cpp"
+				RelativePath="..\src\core\SkDrawLooper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkDropShadowImageFilter.cpp"
+				RelativePath="..\src\effects\SkDropShadowImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkDumpCanvas.cpp"
+				RelativePath="..\src\utils\SkDumpCanvas.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkEdge.cpp"
+				RelativePath="..\src\core\SkEdge.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkEdgeBuilder.cpp"
+				RelativePath="..\src\core\SkEdgeBuilder.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkEdgeClipper.cpp"
+				RelativePath="..\src\core\SkEdgeClipper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkEmbossMask.cpp"
+				RelativePath="..\src\effects\SkEmbossMask.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkEmbossMaskFilter.cpp"
+				RelativePath="..\src\effects\SkEmbossMaskFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkError.cpp"
+				RelativePath="..\src\core\SkError.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkEventTracer.cpp"
+				RelativePath="..\src\utils\SkEventTracer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkFilterProc.cpp"
+				RelativePath="..\src\core\SkFilterProc.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkFilterShader.cpp"
+				RelativePath="..\src\core\SkFilterShader.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkFlate.cpp"
+				RelativePath="..\src\core\SkFlate.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkFlattenable.cpp"
+				RelativePath="..\src\core\SkFlattenable.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkFlattenableSerialization.cpp"
+				RelativePath="..\src\core\SkFlattenableSerialization.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkFloat.cpp"
+				RelativePath="..\src\core\SkFloat.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkFloatBits.cpp"
+				RelativePath="..\src\core\SkFloatBits.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkFont.cpp"
+				RelativePath="..\src\core\SkFont.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkFontDescriptor.cpp"
+				RelativePath="..\src\core\SkFontDescriptor.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkFontHost.cpp"
+				RelativePath="..\src\core\SkFontHost.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\ports\SkFontHost_win.cpp"
+				RelativePath="..\src\ports\SkFontHost_win.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\ports\SkFontMgr_default_gdi.cpp"
+				RelativePath="..\src\ports\SkFontMgr_default_gdi.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\fonts\SkFontMgr_indirect.cpp"
+				RelativePath="..\src\fonts\SkFontMgr_indirect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkFontStream.cpp"
+				RelativePath="..\src\core\SkFontStream.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkFrontBufferedStream.cpp"
+				RelativePath="..\src\utils\SkFrontBufferedStream.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkGatherPixelRefsAndRects.cpp"
+				RelativePath="..\src\utils\SkGatherPixelRefsAndRects.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkGeometry.cpp"
+				RelativePath="..\src\core\SkGeometry.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\SkGLContextHelper.cpp"
+				RelativePath="..\src\gpu\gl\SkGLContextHelper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\ports\SkGlobalInitialization_default.cpp"
+				RelativePath="..\src\ports\SkGlobalInitialization_default.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkGlyphCache.cpp"
+				RelativePath="..\src\core\SkGlyphCache.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pipe\SkGPipeRead.cpp"
+				RelativePath="..\src\pipe\SkGPipeRead.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pipe\SkGPipeWrite.cpp"
+				RelativePath="..\src\pipe\SkGPipeWrite.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkGpuBlurUtils.cpp"
+				RelativePath="..\src\effects\SkGpuBlurUtils.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\SkGpuDevice.cpp"
+				RelativePath="..\src\gpu\SkGpuDevice.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\SkGr.cpp"
+				RelativePath="..\src\gpu\SkGr.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\gradients\SkGradientShader.cpp"
+				RelativePath="..\src\effects\gradients\SkGradientShader.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkGraphics.cpp"
+				RelativePath="..\src\core\SkGraphics.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\SkGrFontScaler.cpp"
+				RelativePath="..\src\gpu\SkGrFontScaler.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\SkGrPixelRef.cpp"
+				RelativePath="..\src\gpu\SkGrPixelRef.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\SkGrTexturePixelRef.cpp"
+				RelativePath="..\src\gpu\SkGrTexturePixelRef.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\fonts\SkGScalerContext.cpp"
+				RelativePath="..\src\fonts\SkGScalerContext.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\win\SkHRESULT.cpp"
+				RelativePath="..\src\utils\win\SkHRESULT.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\image\SkImage.cpp"
+				RelativePath="..\src\image\SkImage.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\image\SkImage_Codec.cpp"
+				RelativePath="..\src\image\SkImage_Codec.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\image\SkImage_Gpu.cpp"
+				RelativePath="..\src\image\SkImage_Gpu.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\image\SkImage_Picture.cpp"
+				RelativePath="..\src\image\SkImage_Picture.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\image\SkImage_Raster.cpp"
+				RelativePath="..\src\image\SkImage_Raster.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkImageDecoder.cpp"
+				RelativePath="..\src\images\SkImageDecoder.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkImageDecoder_FactoryRegistrar.cpp"
+				RelativePath="..\src\images\SkImageDecoder_FactoryRegistrar.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkImageDecoder_libbmp.cpp"
+				RelativePath="..\src\images\SkImageDecoder_libbmp.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkImageDecoder_libico.cpp"
+				RelativePath="..\src\images\SkImageDecoder_libico.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkImageDecoder_wbmp.cpp"
+				RelativePath="..\src\images\SkImageDecoder_wbmp.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\ports\SkImageDecoder_WIC.cpp"
+				RelativePath="..\src\ports\SkImageDecoder_WIC.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkImageEncoder.cpp"
+				RelativePath="..\src\images\SkImageEncoder.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkImageEncoder_argb.cpp"
+				RelativePath="..\src\images\SkImageEncoder_argb.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkImageEncoder_Factory.cpp"
+				RelativePath="..\src\images\SkImageEncoder_Factory.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkImageFilter.cpp"
+				RelativePath="..\src\core\SkImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkImageInfo.cpp"
+				RelativePath="..\src\core\SkImageInfo.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\image\SkImagePriv.cpp"
+				RelativePath="..\src\image\SkImagePriv.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkImageRef.cpp"
+				RelativePath="..\src\images\SkImageRef.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkImageRef_GlobalPool.cpp"
+				RelativePath="..\src\images\SkImageRef_GlobalPool.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkImageRefPool.cpp"
+				RelativePath="..\src\images\SkImageRefPool.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkImages.cpp"
+				RelativePath="..\src\images\SkImages.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkInstCnt.cpp"
+				RelativePath="..\src\core\SkInstCnt.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkInterpolator.cpp"
+				RelativePath="..\src\utils\SkInterpolator.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkIntersections.cpp"
+				RelativePath="..\src\pathops\SkIntersections.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\win\SkIStream.cpp"
+				RelativePath="..\src\utils\win\SkIStream.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkKernel33MaskFilter.cpp"
+				RelativePath="..\src\effects\SkKernel33MaskFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkLayer.cpp"
+				RelativePath="..\src\utils\SkLayer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkLayerDrawLooper.cpp"
+				RelativePath="..\src\effects\SkLayerDrawLooper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkLayerRasterizer.cpp"
+				RelativePath="..\src\effects\SkLayerRasterizer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkLerpXfermode.cpp"
+				RelativePath="..\src\effects\SkLerpXfermode.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkLightingImageFilter.cpp"
+				RelativePath="..\src\effects\SkLightingImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\gradients\SkLinearGradient.cpp"
+				RelativePath="..\src\effects\gradients\SkLinearGradient.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkLineClipper.cpp"
+				RelativePath="..\src\core\SkLineClipper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkLumaColorFilter.cpp"
+				RelativePath="..\src\effects\SkLumaColorFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkMagnifierImageFilter.cpp"
+				RelativePath="..\src\effects\SkMagnifierImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkMallocPixelRef.cpp"
+				RelativePath="..\src\core\SkMallocPixelRef.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkMask.cpp"
+				RelativePath="..\src\core\SkMask.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkMaskFilter.cpp"
+				RelativePath="..\src\core\SkMaskFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkMaskGamma.cpp"
+				RelativePath="..\src\core\SkMaskGamma.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkMath.cpp"
+				RelativePath="..\src\core\SkMath.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkMatrix.cpp"
+				RelativePath="..\src\core\SkMatrix.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkMatrix44.cpp"
+				RelativePath="..\src\utils\SkMatrix44.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkMatrixClipStateMgr.cpp"
+				RelativePath="..\src\core\SkMatrixClipStateMgr.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkMatrixConvolutionImageFilter.cpp"
+				RelativePath="..\src\effects\SkMatrixConvolutionImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkMatrixImageFilter.cpp"
+				RelativePath="..\src\effects\SkMatrixImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkMD5.cpp"
+				RelativePath="..\src\utils\SkMD5.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\ports\SkMemory_malloc.cpp"
+				RelativePath="..\src\ports\SkMemory_malloc.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkMergeImageFilter.cpp"
+				RelativePath="..\src\effects\SkMergeImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkMeshUtils.cpp"
+				RelativePath="..\src\utils\SkMeshUtils.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkMetaData.cpp"
+				RelativePath="..\src\core\SkMetaData.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkMipMap.cpp"
+				RelativePath="..\src\core\SkMipMap.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\opts\SkMorphology_opts_SSE2.cpp"
+				RelativePath="..\src\opts\SkMorphology_opts_SSE2.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkMorphologyImageFilter.cpp"
+				RelativePath="..\src\effects\SkMorphologyImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkMovie.cpp"
+				RelativePath="..\src\images\SkMovie.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\win\SkNativeGLContext_win.cpp"
+				RelativePath="..\src\gpu\gl\win\SkNativeGLContext_win.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkNinePatch.cpp"
+				RelativePath="..\src\utils\SkNinePatch.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkNullCanvas.cpp"
+				RelativePath="..\src\utils\SkNullCanvas.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\gpu\gl\SkNullGLContext.cpp"
+				RelativePath="..\src\gpu\gl\SkNullGLContext.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkNWayCanvas.cpp"
+				RelativePath="..\src\utils\SkNWayCanvas.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\debugger\SkObjectParser.cpp"
+				RelativePath="..\src\utils\debugger\SkObjectParser.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkOffsetImageFilter.cpp"
+				RelativePath="..\src\effects\SkOffsetImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkOpAngle.cpp"
+				RelativePath="..\src\pathops\SkOpAngle.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkOpContour.cpp"
+				RelativePath="..\src\pathops\SkOpContour.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkOpEdgeBuilder.cpp"
+				RelativePath="..\src\pathops\SkOpEdgeBuilder.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkOpSegment.cpp"
+				RelativePath="..\src\pathops\SkOpSegment.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkOSFile.cpp"
+				RelativePath="..\src\utils\SkOSFile.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\ports\SkOSFile_stdio.cpp"
+				RelativePath="..\src\ports\SkOSFile_stdio.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\ports\SkOSFile_win.cpp"
+				RelativePath="..\src\ports\SkOSFile_win.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\sfnt\SkOTTable_name.cpp"
+				RelativePath="..\src\sfnt\SkOTTable_name.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\sfnt\SkOTUtils.cpp"
+				RelativePath="..\src\sfnt\SkOTUtils.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPackBits.cpp"
+				RelativePath="..\src\core\SkPackBits.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkPageFlipper.cpp"
+				RelativePath="..\src\images\SkPageFlipper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPaint.cpp"
+				RelativePath="..\src\core\SkPaint.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkPaintFlagsDrawFilter.cpp"
+				RelativePath="..\src\effects\SkPaintFlagsDrawFilter.cpp"
 				>
 			</File>
 			<File
@@ -1712,514 +1677,466 @@
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPaintPriv.cpp"
+				RelativePath="..\src\core\SkPaintPriv.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkParse.cpp"
+				RelativePath="..\src\utils\SkParse.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkParseColor.cpp"
+				RelativePath="..\src\utils\SkParseColor.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkParsePath.cpp"
+				RelativePath="..\src\utils\SkParsePath.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPath.cpp"
+				RelativePath="..\src\core\SkPath.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPathEffect.cpp"
+				RelativePath="..\src\core\SkPathEffect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPathHeap.cpp"
+				RelativePath="..\src\core\SkPathHeap.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPathMeasure.cpp"
+				RelativePath="..\src\core\SkPathMeasure.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathOpsBounds.cpp"
+				RelativePath="..\src\pathops\SkPathOpsBounds.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathOpsCommon.cpp"
+				RelativePath="..\src\pathops\SkPathOpsCommon.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathOpsCubic.cpp"
+				RelativePath="..\src\pathops\SkPathOpsCubic.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathOpsDebug.cpp"
+				RelativePath="..\src\pathops\SkPathOpsDebug.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathOpsLine.cpp"
+				RelativePath="..\src\pathops\SkPathOpsLine.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathOpsOp.cpp"
+				RelativePath="..\src\pathops\SkPathOpsOp.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathOpsPoint.cpp"
+				RelativePath="..\src\pathops\SkPathOpsPoint.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathOpsQuad.cpp"
+				RelativePath="..\src\pathops\SkPathOpsQuad.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathOpsRect.cpp"
+				RelativePath="..\src\pathops\SkPathOpsRect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathOpsSimplify.cpp"
+				RelativePath="..\src\pathops\SkPathOpsSimplify.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathOpsTriangle.cpp"
+				RelativePath="..\src\pathops\SkPathOpsTriangle.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathOpsTypes.cpp"
+				RelativePath="..\src\pathops\SkPathOpsTypes.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPathRef.cpp"
+				RelativePath="..\src\core\SkPathRef.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkPathUtils.cpp"
+				RelativePath="..\src\utils\SkPathUtils.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkPathWriter.cpp"
+				RelativePath="..\src\pathops\SkPathWriter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkPDFRasterizer.cpp"
+				RelativePath="..\src\utils\SkPDFRasterizer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkPerlinNoiseShader.cpp"
+				RelativePath="..\src\effects\SkPerlinNoiseShader.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPicture.cpp"
+				RelativePath="..\src\core\SkPicture.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPictureFlat.cpp"
+				RelativePath="..\src\core\SkPictureFlat.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkPictureImageFilter.cpp"
+				RelativePath="..\src\effects\SkPictureImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPicturePlayback.cpp"
+				RelativePath="..\src\core\SkPicturePlayback.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPictureRecord.cpp"
+				RelativePath="..\src\core\SkPictureRecord.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPictureShader.cpp"
+				RelativePath="..\src\core\SkPictureShader.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPictureStateTree.cpp"
+				RelativePath="..\src\core\SkPictureStateTree.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkPictureUtils.cpp"
+				RelativePath="..\src\utils\SkPictureUtils.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPixelRef.cpp"
+				RelativePath="..\src\core\SkPixelRef.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkPixelXorXfermode.cpp"
+				RelativePath="..\src\effects\SkPixelXorXfermode.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPoint.cpp"
+				RelativePath="..\src\core\SkPoint.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkPorterDuff.cpp"
+				RelativePath="..\src\effects\SkPorterDuff.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkProcSpriteBlitter.cpp"
+				RelativePath="..\src\core\SkProcSpriteBlitter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkProxyCanvas.cpp"
+				RelativePath="..\src\utils\SkProxyCanvas.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkPtrRecorder.cpp"
+				RelativePath="..\src\core\SkPtrRecorder.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkQuadClipper.cpp"
+				RelativePath="..\src\core\SkQuadClipper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkQuadTree.cpp"
+				RelativePath="..\src\core\SkQuadTree.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkQuadTreePicture.cpp"
+				RelativePath="..\src\core\SkQuadTreePicture.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkQuarticRoot.cpp"
+				RelativePath="..\src\pathops\SkQuarticRoot.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\gradients\SkRadialGradient.cpp"
+				RelativePath="..\src\effects\gradients\SkRadialGradient.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkRasterClip.cpp"
+				RelativePath="..\src\core\SkRasterClip.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkRasterizer.cpp"
+				RelativePath="..\src\core\SkRasterizer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkReadBuffer.cpp"
+				RelativePath="..\src\core\SkReadBuffer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\record\SkRecordCulling.cpp"
+				RelativePath="..\src\record\SkRecordCulling.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\record\SkRecordDraw.cpp"
+				RelativePath="..\src\record\SkRecordDraw.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\record\SkRecorder.cpp"
+				RelativePath="..\src\record\SkRecorder.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkRect.cpp"
+				RelativePath="..\src\core\SkRect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkRectShaderImageFilter.cpp"
+				RelativePath="..\src\effects\SkRectShaderImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\pathops\SkReduceOrder.cpp"
+				RelativePath="..\src\pathops\SkReduceOrder.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkRefDict.cpp"
+				RelativePath="..\src\core\SkRefDict.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkRegion.cpp"
+				RelativePath="..\src\core\SkRegion.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkRegion_path.cpp"
+				RelativePath="..\src\core\SkRegion_path.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\fonts\SkRemotableFontMgr.cpp"
+				RelativePath="..\src\fonts\SkRemotableFontMgr.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkRRect.cpp"
+				RelativePath="..\src\core\SkRRect.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkRTConf.cpp"
+				RelativePath="..\src\utils\SkRTConf.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkRTree.cpp"
+				RelativePath="..\src\core\SkRTree.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkScalar.cpp"
+				RelativePath="..\src\core\SkScalar.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkScaledBitmapSampler.cpp"
+				RelativePath="..\src\images\SkScaledBitmapSampler.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkScaledImageCache.cpp"
+				RelativePath="..\src\core\SkScaledImageCache.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkScalerContext.cpp"
+				RelativePath="..\src\core\SkScalerContext.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkScan.cpp"
+				RelativePath="..\src\core\SkScan.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkScan_Antihair.cpp"
+				RelativePath="..\src\core\SkScan_Antihair.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkScan_AntiPath.cpp"
+				RelativePath="..\src\core\SkScan_AntiPath.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkScan_Hairline.cpp"
+				RelativePath="..\src\core\SkScan_Hairline.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkScan_Path.cpp"
+				RelativePath="..\src\core\SkScan_Path.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkSHA1.cpp"
+				RelativePath="..\src\utils\SkSHA1.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkShader.cpp"
+				RelativePath="..\src\core\SkShader.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkSpriteBlitter_ARGB32.cpp"
+				RelativePath="..\src\core\SkSpriteBlitter_ARGB32.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkSpriteBlitter_RGB16.cpp"
+				RelativePath="..\src\core\SkSpriteBlitter_RGB16.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkStippleMaskFilter.cpp"
+				RelativePath="..\src\effects\SkStippleMaskFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkStream.cpp"
+				RelativePath="..\src\core\SkStream.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\images\SkStreamHelpers.cpp"
+				RelativePath="..\src\images\SkStreamHelpers.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkString.cpp"
+				RelativePath="..\src\core\SkString.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkStringUtils.cpp"
+				RelativePath="..\src\core\SkStringUtils.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkStroke.cpp"
+				RelativePath="..\src\core\SkStroke.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkStrokeRec.cpp"
+				RelativePath="..\src\core\SkStrokeRec.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkStrokerPriv.cpp"
+				RelativePath="..\src\core\SkStrokerPriv.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\image\SkSurface.cpp"
+				RelativePath="..\src\image\SkSurface.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\image\SkSurface_Gpu.cpp"
+				RelativePath="..\src\image\SkSurface_Gpu.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\image\SkSurface_Picture.cpp"
+				RelativePath="..\src\image\SkSurface_Picture.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\image\SkSurface_Raster.cpp"
+				RelativePath="..\src\image\SkSurface_Raster.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\gradients\SkSweepGradient.cpp"
+				RelativePath="..\src\effects\gradients\SkSweepGradient.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkTableColorFilter.cpp"
+				RelativePath="..\src\effects\SkTableColorFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkTableMaskFilter.cpp"
+				RelativePath="..\src\effects\SkTableMaskFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkTestImageFilters.cpp"
+				RelativePath="..\src\effects\SkTestImageFilters.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkThreadUtils_win.cpp"
+				RelativePath="..\src\utils\SkThreadUtils_win.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkTileGrid.cpp"
+				RelativePath="..\src\core\SkTileGrid.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkTileGridPicture.cpp"
+				RelativePath="..\src\core\SkTileGridPicture.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkTileImageFilter.cpp"
+				RelativePath="..\src\effects\SkTileImageFilter.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\ports\SkTime_win.cpp"
+				RelativePath="..\src\ports\SkTime_win.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkTLS.cpp"
+				RelativePath="..\src\core\SkTLS.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\ports\SkTLS_win.cpp"
+				RelativePath="..\src\ports\SkTLS_win.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkTransparentShader.cpp"
+				RelativePath="..\src\effects\SkTransparentShader.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkTSearch.cpp"
+				RelativePath="..\src\core\SkTSearch.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\gradients\SkTwoPointConicalGradient.cpp"
+				RelativePath="..\src\effects\gradients\SkTwoPointConicalGradient.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\gradients\SkTwoPointConicalGradient_gpu.cpp"
+				RelativePath="..\src\effects\gradients\SkTwoPointConicalGradient_gpu.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\gradients\SkTwoPointRadialGradient.cpp"
+				RelativePath="..\src\effects\gradients\SkTwoPointRadialGradient.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkTypeface.cpp"
+				RelativePath="..\src\core\SkTypeface.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkTypefaceCache.cpp"
+				RelativePath="..\src\core\SkTypefaceCache.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\SkUnitMappers.cpp"
+				RelativePath="..\src\utils\SkUnitMappers.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkUnPreMultiply.cpp"
+				RelativePath="..\src\core\SkUnPreMultiply.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkUtils.cpp"
+				RelativePath="..\src\core\SkUtils.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\opts\SkUtils_opts_SSE2.cpp"
+				RelativePath="..\src\opts\SkUtils_opts_SSE2.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkValidatingReadBuffer.cpp"
+				RelativePath="..\src\core\SkValidatingReadBuffer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\utils\win\SkWGL_win.cpp"
+				RelativePath="..\src\utils\win\SkWGL_win.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkWriteBuffer.cpp"
+				RelativePath="..\src\core\SkWriteBuffer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkWriter32.cpp"
+				RelativePath="..\src\core\SkWriter32.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\core\SkXfermode.cpp"
+				RelativePath="..\src\core\SkXfermode.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\opts\SkXfermode_opts_SSE2.cpp"
+				RelativePath="..\src\opts\SkXfermode_opts_SSE2.cpp"
 				>
 			</File>
 			<File
-				RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\src\effects\SkXfermodeImageFilter.cpp"
+				RelativePath="..\src\effects\SkXfermodeImageFilter.cpp"
 				>
 			</File>
 		</Filter>
-		<File
-			RelativePath="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeLists.txt"
-			>
-			<FileConfiguration
-				Name="Debug|Win32"
-				>
-				<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule D:/安装程序/编程/开源库/chrome/skia/skia/cmake/CMakeLists.txt"
-					CommandLine="D:\Software\program\cmake-3.5.2-win32-x86\bin\cmake.exe -HD:/安装程序/编程/开源库/chrome/skia/skia/cmake -BD:/安装程序/编程/开源库/chrome/skia/skia/cmake --check-stamp-file D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-					AdditionalDependencies="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeLists.txt;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystem.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeSystem.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CompilerId\VS-7.vcproj.in;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-CXX.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CompilerId\VS-7.vcproj.in;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeRCInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompilerABI.c;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Internal\FeatureTesting.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\feature_tests.cxx;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindEXPAT.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindLua.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindZLIB.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\SelectLibraryConfigurations.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindOpenGL.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\SkUserConfig.h.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeLists.txt;"
-					Outputs="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\generate.stamp"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule D:/安装程序/编程/开源库/chrome/skia/skia/cmake/CMakeLists.txt"
-					CommandLine="D:\Software\program\cmake-3.5.2-win32-x86\bin\cmake.exe -HD:/安装程序/编程/开源库/chrome/skia/skia/cmake -BD:/安装程序/编程/开源库/chrome/skia/skia/cmake --check-stamp-file D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-					AdditionalDependencies="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeLists.txt;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystem.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeSystem.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CompilerId\VS-7.vcproj.in;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-CXX.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CompilerId\VS-7.vcproj.in;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeRCInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompilerABI.c;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Internal\FeatureTesting.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\feature_tests.cxx;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindEXPAT.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindLua.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindZLIB.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\SelectLibraryConfigurations.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindOpenGL.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\SkUserConfig.h.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeLists.txt;"
-					Outputs="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\generate.stamp"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="MinSizeRel|Win32"
-				>
-				<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule D:/安装程序/编程/开源库/chrome/skia/skia/cmake/CMakeLists.txt"
-					CommandLine="D:\Software\program\cmake-3.5.2-win32-x86\bin\cmake.exe -HD:/安装程序/编程/开源库/chrome/skia/skia/cmake -BD:/安装程序/编程/开源库/chrome/skia/skia/cmake --check-stamp-file D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-					AdditionalDependencies="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeLists.txt;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystem.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeSystem.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CompilerId\VS-7.vcproj.in;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-CXX.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CompilerId\VS-7.vcproj.in;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeRCInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompilerABI.c;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Internal\FeatureTesting.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\feature_tests.cxx;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindEXPAT.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindLua.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindZLIB.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\SelectLibraryConfigurations.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindOpenGL.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\SkUserConfig.h.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeLists.txt;"
-					Outputs="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\generate.stamp"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="RelWithDebInfo|Win32"
-				>
-				<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule D:/安装程序/编程/开源库/chrome/skia/skia/cmake/CMakeLists.txt"
-					CommandLine="D:\Software\program\cmake-3.5.2-win32-x86\bin\cmake.exe -HD:/安装程序/编程/开源库/chrome/skia/skia/cmake -BD:/安装程序/编程/开源库/chrome/skia/skia/cmake --check-stamp-file D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-					AdditionalDependencies="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeLists.txt;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystem.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeSystem.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CompilerId\VS-7.vcproj.in;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-CXX.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CompilerId\VS-7.vcproj.in;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeRCInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompilerABI.c;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Internal\FeatureTesting.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\feature_tests.cxx;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindEXPAT.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindLua.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindZLIB.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\SelectLibraryConfigurations.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindOpenGL.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\FindPackageMessage.cmake;D:\Software\program\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\SkUserConfig.h.in;D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeLists.txt;"
-					Outputs="D:\安装程序\编程\开源库\chrome\skia\skia\cmake\CMakeFiles\generate.stamp"
-				/>
-			</FileConfiguration>
-		</File>
 	</Files>
 	<Globals>
 	</Globals>
