@@ -1,0 +1,3 @@
+-LD:/安装程序/编程/开源库/chrome/skia/skia/cmake
+-lskia
+-Wl,-rpath,D:/安装程序/编程/开源库/chrome/skia/skia/cmake
